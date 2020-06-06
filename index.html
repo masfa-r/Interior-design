@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" 
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+ <!-- Navbar -->
+ <div class="nav-bar-main">
+    <nav class="nav-bar">
+        <img class="logo" src="images/pic7logo.png" alt="logo">
+        <ul class="main-menu">
+            <li>H-Interior</li>
+
+        </ul>
+        <ul class="right-menu">
+            <!-- Menu-Btn -->
+            <li class="menu-btn" onclick="openSlideMenu()"> <i class="fas fa-bars fa-2x">
+
+            </i></li>
+        </ul>
+    </nav>
+    <div id="slide-menu" class="slide-nav" >
+        <a href="#!" class="close-btn" onclick="closeSlideMenu()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+
+
+
+    </div>
+    <a href="#" class="scroll-up"><i class="fas fa-arrow-up"></i></a>
+    <!-- Social media -->
+    <ul class="scroll-fix">
+        <li><i class="fab fa-facebook fb"></i></li>
+        <li><i class="fab fa-instagram insta"></i></li>
+        <li><i class="fab fa-snapchat-ghost snap"></i></li>
+    </ul>
+</div>
+<!-- Showcasew -->
+<header class="showcase">
+    <h1>Interior Design</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, impedit!
+    
+</p>
+
+
+<a href="contact.html" class="btn">
+    Contact Now! <i class="fas fa-chevron-right"></i>
+</a>
+</header>
+<!-- About us section -->
+<section>
+    <div class="abt-main-con">
+        <div class="abt-con-left">
+            
+        </div>
+        <div class="abt-con-rgt">
+        <h1>We create your daily experience!
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Nostrum quasi, rem ratione deserunt animi velit dolores nobis
+             necessitatibus debitis neque eum rerum praesentium 
+            pariatur maxime quibusdam fugiat. Quod, aliquid adipisci.</p>
+            <p><a class="btn" id="modalbtn">
+                Get our Newsletter! <i class="fas fa-chevron-right"></i></a></p>
+        </div>
+        
+    </div>
+    <div id="N-modal"class="Newsletter-modal">
+        <div class="modal">
+            <span id="closebtn">&times;</span>
+            <h3>Newsletter</h3>
+            <img src="images/n-1.jpg" alt="">
+            <p>Subscribe to our newsletter to get latest updates
+                 and amazing offers delivered directly to your inbox.</p>
+            <form name="Form" action="">
+             <p>
+             <label for="">Email</label> <br>
+             <input type="email" placeholder="Enter Email" required name="email">
+             </p>
+             <a href="#!" onclick="Subscribe()">Subscribe Now!</a>
+            </form>
+            <p id="submit-msg2"></p>
+        </div>
+    </div>
+</section>
+<!-- Workflow section -->
+<section>
+      <div class="wf-cards">
+        <div class="zone"> <i class="fas fa-pencil-ruler"></i><p>PERFECTLY DESIGN</p></div>
+        <div class="zone"><i class="far fa-sticky-note"></i><p>CAREFULLY PLANNED</p></div>
+        <div class="zone"><i class="fas fa-people-carry"></i><p>SMARTLY EXECUTED</p></div>
+      </div>
+    
+</section>
+<!-- Gallery -->
+
+<div class="img-con">
+<div class="box"><img src="images\pic8.jpg" alt=""></div>
+<div class="box"><img src="images\pic9.jpg" alt=""></div>
+<div class="box"><img src="images\pic12.jpg" alt=""></div>
+<div class="box"><img src="images\pic15.jpg" alt=""></div>
+
+</div>
+  <div class="project-btn">
+    <a href="projects.html" class="btn">
+        View more Projects <i class="fas fa-chevron-right"></i>
+    </a>
+  </div> 
+    <!--Testimonial cards  -->
+    <h2 class="test-heading">Our Client Review</h2>
+    <div class="testimonials">
+        <div class="test-cards">
+            <div class="upper-layer">   <i class="fas fa-user-circle"></i>
+                <p>Mr. John</p></div>
+            <div class="test-card-content">
+                <p><q>Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit  elit consectetur adipisicing elit.</q></p>
+               </div>
+        </div>
+
+        <div class="test-cards">
+            <div class="upper-layer">
+                <i class="fas fa-user-circle"></i>
+                <p>Mr. James </p>
+               </div>
+            <div class="test-card-content">
+                <p><q>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Doloribus consequatur aliquid necessitatibus.</q></p>
+               </div>
+        </div>
+
+        <div class="test-cards">
+            <div class="upper-layer"> <i class="fas fa-user-circle"></i>
+                <p>Mr. William</p></div>
+            <div class="test-card-content">
+               <p> <q>Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit consectetur adipisicing elit</q></p>
+               </div>
+        </div>
+    </div>
+    
+      <!-- Footer -->
+      <footer>
+        <div class="main-footer">
+            <div class="footer-items">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nam perferendis 
+      quia tempore quis minima dolore, molestiae quisquam at atque.</p>
+            </div>
+            <div class="footer-items">
+  <h4>Quick Access</h4>
+  <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+            </div>
+            <div class="footer-items">
+  <h4>Contact Us</h4>
+  <ul>
+      <li><i class="fas fa-map-marker-alt"></i>ABC Street, Karachi, Pakistan</li>
+      <li><i class="fas fa-phone"></i>012345678918</li>
+      <li><i class="fas fa-envelope"></i>hinterior@gmail.com</li>
+  </ul>
+  </div>
+</footer>
+  <div class="footer-bottom">
+    <p>
+        Copyright &copy; 2020 H-Interior Design
+    </p>
+  </div>
+      
+   
+    
+
+<!-- Javascript  -->
+   <script src="app.js"> </script>
+
+</body>
+</html>
